@@ -6,7 +6,7 @@ The example is a `ThemeProvider` class that:
 
 ### What is the Provider Pattern?
 
-The Provider Pattern is a design pattern commonly used to decouple the logic of providing resources (like data, configurations, or services) from the components that consume them. This pattern centralizes and manages access to shared resources or states, allowing other parts of the system to access these resources without needing to directly interact with the resource’s implementation. Some key points about the Provider Pattern:
+The Provider Pattern is a design pattern commonly used to decouple the logic of providing resources (like data, configurations, or services) from the components that consume them. This pattern centralizes and manages access to shared resources or states, allowing other parts of the system to access these resources without needing to directly interact with the resource’s implementation. 
 
 * It acts as a central source of truth, managing and distributing shared resources or services.
 

@@ -5,7 +5,7 @@ The example is a `User` object that:
 
 ### What is the Proxy Pattern?
 
-The Proxy pattern provides an intermediary object that controls access to another object. This can be used to add functionality such as validation, logging, or lazy initialization, without modifying the original object. Some key points about the Proxy pattern:
+The Proxy pattern provides an intermediary object that controls access to another object. This can be used to add functionality such as validation, logging, or lazy initialization, without modifying the original object. 
 
 * The Proxy object intercepts operations on the target object, such as getting or setting properties.
 
@@ -15,7 +15,7 @@ The Proxy pattern provides an intermediary object that controls access to anothe
 
 * Common use cases include input validation, logging, lazy loading, or access control.
 
-#### When to use the Proxy Pattern?
+ #### When to use the Proxy Pattern?
 
 * When you need to control or validate access to an object’s properties.
 

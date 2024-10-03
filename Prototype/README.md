@@ -6,7 +6,7 @@ The example is a `Car` class that:
 
 ### What is the Prototype Pattern?
 
-The Prototype pattern is a creational design pattern that allows an object to be cloned, creating new instances based on an existing object. Instead of instantiating objects from scratch, it enables copying or cloning an existing object, which serves as a prototype. Some key points about the Prototype pattern:
+The Prototype pattern is a creational design pattern that allows an object to be cloned, creating new instances based on an existing object. Instead of instantiating objects from scratch, it enables copying or cloning an existing object, which serves as a prototype. 
 
 * It allows for creating new objects by copying an existing instance, rather than creating a new instance through the constructor.
 

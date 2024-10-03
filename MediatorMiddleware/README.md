@@ -13,7 +13,7 @@ The Mediator Pattern is a behavioral design pattern that defines an object (the 
 
 * It simplifies communication between multiple objects, especially when their interactions are complex or change frequently.
 
-#### **When to use the Mediator Pattern?**
+#### When to use the Mediator Pattern?
 * When you have multiple objects that need to communicate with each other, but you want to reduce dependencies and direct connections between them.
 
 * When the communication logic between objects becomes too complex and needs to be centralized in one place.

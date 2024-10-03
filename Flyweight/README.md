@@ -15,7 +15,7 @@ The Flyweight Pattern is a structural design pattern that focuses on reducing me
 
 * The pattern is useful for scenarios where you need to manage a large number of similar objects efficiently.
 
-#### **When to use the Flyweight Pattern?**
+#### When to use the Flyweight Pattern?
 
 * When many similar objects are being created and memory usage becomes a concern.
 

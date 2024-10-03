@@ -5,9 +5,9 @@ The example is a Counter class that has:
 * an `increment` method that increments the value of `counter` by one
 * a `decrement` method that decrements the value of `counter` by one
 
- ## What is the Singleton Pattern?
+ ### What is the Singleton Pattern?
  
- The Singleton pattern ensures that a class has only one instance and provides a global point of access to that instance. This pattern is used to prevent multiple instances of the same class from being created, ensuring consistency throughout the application. Some key points about the Singleton pattern:
+ The Singleton pattern ensures that a class has only one instance and provides a global point of access to that instance. This pattern is used to prevent multiple instances of the same class from being created, ensuring consistency throughout the application. 
 
 * It restricts the instantiation of a class to only one object.
 
@@ -17,7 +17,7 @@ The example is a Counter class that has:
 
 * Common use cases include logging, drivers, caching, and thread pools.
 
-#### When to use the Singleton Pattern?
+ #### When to use the Singleton Pattern?
 
 * When you need exactly one instance of a class and want to control its global access.
 

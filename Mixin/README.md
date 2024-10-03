@@ -13,7 +13,7 @@ The **Mixin Pattern** is a design pattern used to add reusable behavior or funct
 
 * The Mixin Pattern enables more flexible and reusable code, as classes can share common functionality without being tightly coupled or forming hierarchical structures.
 
-#### **When to use the Mixin Pattern?**
+#### When to use the Mixin Pattern?
 
 * When you need to share behavior or functionality between classes without introducing a complex inheritance hierarchy.
 
