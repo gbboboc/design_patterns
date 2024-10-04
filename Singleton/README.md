@@ -19,7 +19,7 @@
 
 * In scenarios where resource management, such as database connections or configuration settings, needs centralized handling.
 
-  The example is a Counter class that has:
+  **The example is a Counter class that has:**
 
 * a `getInstance` method that returns the value of the instance
 * a `getCount` method that returns the current value of the `counter` variable
