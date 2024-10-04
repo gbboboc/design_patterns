@@ -1,4 +1,5 @@
- ## What is the Singleton Pattern?
+## Singleton
+ ### What is the Singleton Pattern?
  
  The Singleton pattern ensures that a class has only one instance and provides a global point of access to that instance. This pattern is used to prevent multiple instances of the same class from being created, ensuring consistency throughout the application. 
 
