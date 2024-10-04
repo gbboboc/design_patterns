@@ -1,26 +1,37 @@
 # Design Patterns
 
+### Creational Patterns
 
+**These patterns are responsible for object creation, ensuring flexibility and reuse.**
 
-## Creational
+1. [Factory Pattern](https://github.com/DeGambino/design_patterns/tree/main/Factory) 
 
-Creational design patterns are used to design the instantiation process of objects. The creational pattern uses inheritance to vary the object creation.
+2. [Prototype Pattern](https://github.com/DeGambino/design_patterns/tree/main/Prototype) 
 
-1. [Builder](#builder)
-2. [Prototype](#prototype)
-3. [Factory](#factory)
-4. [Abstract Factory](#abstract-factory)
-5. [Singleton](https://github.com/DeGambino/design_patterns/tree/main/Singleton)
+3. [Singleton Pattern](https://github.com/DeGambino/design_patterns/tree/main/Singleton) 
 
-## Structural
+### Structural Patterns
 
-Structural patterns are concerned with how classes and objects are composed to form larger structures. Structural class patterns use inheritance to compose interfaces or implementations.
+**These patterns deal with object composition, focusing on how classes and objects can be composed to form larger structures.**
 
-1. [Adapter](#adapter)
-2. [Composite](#composite)
-3. [Proxy](#proxy)
-4. [Bridge](#bridge)
-5. [Decorator](#decorator)
-6. [Flyweight](#flyweight)
-7. [Facade](#facade)
+1. [Flyweight Pattern](https://github.com/DeGambino/design_patterns/tree/main/Flyweight)
 
+2. [Mixin Pattern](https://github.com/DeGambino/design_patterns/tree/main/Mixin)
+
+3. [Module Pattern](https://github.com/DeGambino/design_patterns/tree/main/Module)
+
+4. [Proxy Pattern](https://github.com/DeGambino/design_patterns/tree/main/Proxy)
+
+5. [Static Import](https://github.com/DeGambino/design_patterns/tree/main/StaticImport)
+
+### Behavioral Patterns
+
+**These patterns are concerned with communication between objects, defining how they interact and behave.**
+
+1. [Command Pattern](https://github.com/DeGambino/design_patterns/tree/main/Command)
+
+2. [Mediator/Middleware Pattern](https://github.com/DeGambino/design_patterns/tree/main/MediatorMiddleware)
+
+3. [Observer Pattern](https://github.com/DeGambino/design_patterns/tree/main/Observer)
+
+4. [Provider Pattern](https://github.com/DeGambino/design_patterns/tree/main/Provider)
