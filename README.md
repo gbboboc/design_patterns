@@ -10,7 +10,7 @@ Creational design patterns are used to design the instantiation process of objec
 2. [Prototype](#prototype)
 3. [Factory](#factory)
 4. [Abstract Factory](#abstract-factory)
-5. [Singleton](#singleton)
+5. [Singleton](https://github.com/DeGambino/design_patterns/tree/main/Singleton)
 
 ## Structural
 
