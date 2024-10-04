@@ -14,8 +14,8 @@
 
   **The example is a Counter class that has:**
 
-* a `getInstance` method that returns the value of the instance
-* a `getCount` method that returns the current value of the `counter` variable
-* an `increment` method that increments the value of `counter` by one
-* a `decrement` method that decrements the value of `counter` by one
+1. a `getInstance` method that returns the value of the instance
+2. a `getCount` method that returns the current value of the `counter` variable
+3. an `increment` method that increments the value of `counter` by one
+4. a `decrement` method that decrements the value of `counter` by one
 
