@@ -2,36 +2,40 @@
 
 ### Creational Patterns
 
-**These patterns are responsible for object creation, ensuring flexibility and reuse.**
+**These patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.**
 
 1. [Factory Pattern](https://github.com/DeGambino/design_patterns/tree/main/Factory) 
 
 2. [Prototype Pattern](https://github.com/DeGambino/design_patterns/tree/main/Prototype) 
 
-3. [Singleton Pattern](https://github.com/DeGambino/design_patterns/tree/main/Singleton) 
+3. [Singleton Pattern](https://github.com/DeGambino/design_patterns/tree/main/Singleton)
+
+4. [Builder Pattern](https://github.com/gbboboc/design_patterns/tree/main/Builder)
+   
 
 ### Structural Patterns
 
-**These patterns deal with object composition, focusing on how classes and objects can be composed to form larger structures.**
+**These patterns explain how to assemble objects and classes into larger structures while keeping these structures flexible and efficient.**
+1. [Adapter Pattern](https://github.com/gbboboc/design_patterns/tree/main/Adapter)
 
-1. [Flyweight Pattern](https://github.com/DeGambino/design_patterns/tree/main/Flyweight)
+2. [Facade Pattern](https://github.com/gbboboc/design_patterns/tree/main/Facade)
 
-2. [Mixin Pattern](https://github.com/DeGambino/design_patterns/tree/main/Mixin)
+3. [Flyweight Pattern](https://github.com/gbboboc/design_patterns/tree/main/Flyweight)
 
-3. [Module Pattern](https://github.com/DeGambino/design_patterns/tree/main/Module)
+4. [Proxy Pattern](https://github.com/gbboboc/design_patterns/tree/main/Proxy)
 
-4. [Proxy Pattern](https://github.com/DeGambino/design_patterns/tree/main/Proxy)
 
-5. [Static Import](https://github.com/DeGambino/design_patterns/tree/main/StaticImport)
 
 ### Behavioral Patterns
 
-**These patterns are concerned with communication between objects, defining how they interact and behave.**
+**These patterns are concerned with algorithms and the assignment of responsibilities between objects.**
 
 1. [Command Pattern](https://github.com/DeGambino/design_patterns/tree/main/Command)
 
-2. [Mediator/Middleware Pattern](https://github.com/DeGambino/design_patterns/tree/main/MediatorMiddleware)
+2. [Mediator Pattern](https://github.com/gbboboc/design_patterns/tree/main/Mediator)
 
 3. [Observer Pattern](https://github.com/DeGambino/design_patterns/tree/main/Observer)
 
-4. [Provider Pattern](https://github.com/DeGambino/design_patterns/tree/main/Provider)
+4. [Iterator Pattern](https://github.com/gbboboc/design_patterns/tree/main/Iterator)
+
+5. [Strategy Pattern](https://github.com/gbboboc/design_patterns/tree/main/Strategy) 
