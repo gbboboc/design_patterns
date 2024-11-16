@@ -1,8 +1,8 @@
-The example is a `NewsPublisher` class that:
+This example illustrates the structure of the `Observer` design pattern and focuses on the following questions:
 
-* manages a list of subscribers (observers) who are interested in receiving updates.
-
-* notifies all subscribers when there is breaking news.
+* What classes does it consist of?
+* What roles do these classes play?
+* In what way the elements of the pattern are related?
 
 ### What is the Observer Pattern?
 
@@ -22,3 +22,17 @@ The Observer Pattern defines a one-to-many relationship between objects, where o
 
 * In scenarios such as event systems, where many components need to react to the same event or change in data.
 
+#### Identification:
+
+* The pattern can be recognized by subscription methods, that store objects in a list and by calls to the update method issued to objects in that list.
+
+
+#### Pros
+
+* `Open/Closed Principle.` You can introduce new subscriber classes without having to change the publisher’s code (and vice versa if there’s a publisher interface).
+
+* You can establish relations between objects at runtime.
+
+#### Cons
+
+ * Subscribers are notified in random order.

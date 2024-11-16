@@ -1,8 +1,8 @@
-The example is a `RemoteControl` class that:
+This example illustrates the structure of the `Command` design pattern and focuses on the following questions:
 
-* holds a list of commands and can execute them.
-
-* allows the addition of new commands, such as turning on/off a `Light` or a `Fan`, without changing the existing code.
+* What classes does it consist of?
+* What roles do these classes play?
+* In what way the elements of the pattern are related?
 
 ### What is the Command Pattern?
 
@@ -22,3 +22,22 @@ The Command Pattern is a behavioral design pattern that turns a request into a s
 
 * In scenarios where commands may need to be undone or redone.
 
+#### Identification: 
+* The Command pattern is recognizable by behavioral methods in an abstract/interface type (sender) which invokes a method in an implementation of a different abstract/interface type (receiver) which has been encapsulated by the command implementation during its creation. Command classes are usually limited to specific actions.
+
+
+#### Pros
+
+* `Single Responsibility Principle.` You can decouple classes that invoke operations from classes that perform these operations.
+
+* `Open/Closed Principle.` You can introduce new commands into the app without breaking existing client code.
+
+ * You can implement undo/redo.
+
+ * You can implement deferred execution of operations.
+
+ * You can assemble a set of simple commands into a complex one.
+
+#### Cons
+
+* The code may become more complicated since you’re introducing a whole new layer between senders and receivers.

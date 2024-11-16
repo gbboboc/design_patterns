@@ -1,8 +1,8 @@
-The example is a `Car` class that:
+This example illustrates the structure of the `Prototype` design pattern and focuses on the following questions:
 
-* has a `clone` method that allows creating new objects based on an existing instance.
-
-* uses the `Object.create` method to clone an object, maintaining the original object's properties and methods.
+* What classes does it consist of?
+* What roles do these classes play?
+* In what way the elements of the pattern are related?
 
 ### What is the Prototype Pattern?
 
@@ -23,3 +23,21 @@ Prototypes in JavaScript are an intrinsic feature of the language, with each obj
 * When you want to avoid creating instances using constructors and prefer cloning an existing object.
 
 * In scenarios where you need to clone complex objects that are initialized once but need to be used multiple times.
+
+#### Identification: 
+
+* The prototype can be easily recognized by a clone or copy methods. 
+
+
+#### Pros
+* You can clone objects without coupling to their concrete classes.
+
+* You can get rid of repeated initialization code in favor of cloning pre-built prototypes.
+
+* You can produce complex objects more conveniently.
+
+* You get an alternative to inheritance when dealing with configuration presets for complex objects.
+
+#### Cons
+
+* Cloning complex objects that have circular references might be very tricky.

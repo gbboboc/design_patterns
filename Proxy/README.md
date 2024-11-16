@@ -1,7 +1,10 @@
-The example is a `User` object that:
+This example illustrates the structure of the `Proxy` design pattern and focuses on the following questions:
 
-* has a `name` and age property.
-* is accessed through a `UserProxy`, which adds validation to the `set` method (e.g., ensuring that the `age` is a valid number and name is a string).
+* What classes does it consist of?
+
+* What roles do these classes play?
+
+* In what way the elements of the pattern are related?
 
 ### What is the Proxy Pattern?
 
@@ -22,3 +25,23 @@ The Proxy pattern provides an intermediary object that controls access to anothe
 * When you want to transparently introduce additional behavior, such as logging or input validation, without modifying the original object.
 
 * In scenarios where resource-heavy objects need to be initialized only when necessary (lazy initialization).
+
+#### Identification: 
+
+* Proxies delegate all of the real work to some other object. Each proxy method should, in the end, refer to a service object unless the proxy is a subclass of a service.
+
+#### Pros
+
+* You can control the service object without clients knowing about it.
+
+* You can manage the lifecycle of the service object when clients don’t care about it.
+
+* The proxy works even if the service object isn’t ready or is not available.
+
+* `Open/Closed Principle.` You can introduce new proxies without changing the service or clients.
+
+#### Cons
+
+* The code may become more complicated since you need to introduce a lot of new classes.
+
+* The response from the service might get delayed.
