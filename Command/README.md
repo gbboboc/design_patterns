@@ -1,9 +1,22 @@
-This example illustrates the structure of the `Command` design pattern and focuses on the following questions:
+## What is the Command Pattern?
+
+**The Command Pattern turns a request or action into a separate object that contains all the details needed to execute that request. This allows you to pass, store, or execute the request at a later time. It also decouples the object sending the request from the one processing it, making the system more flexible.** 
+
+* With this pattern, you can queue, log, or undo/redo operations easily by keeping track of the command objects.
+
+### You should use the Command Pattern when:
+
+* You want to assign operations to objects, such as UI elements (buttons, menus) that trigger actions.
+* You need to queue, schedule, or log requests for later execution.
+* You want to implement undo/redo functionality by storing commands and their states.
+
+**The example is a `RemoteControl` class that:**
 
 * What classes does it consist of?
 * What roles do these classes play?
 * In what way the elements of the pattern are related?
 
+<<<<<<< HEAD
 ### What is the Command Pattern?
 
 The Command Pattern is a behavioral design pattern that turns a request into a stand-alone object containing all the information about the request. This object can be passed, stored, and executed at a later time. It decouples the sender of the request from the object that processes the request, promoting flexibility in executing operations. 
@@ -41,3 +54,5 @@ The Command Pattern is a behavioral design pattern that turns a request into a s
 #### Cons
 
 * The code may become more complicated since you’re introducing a whole new layer between senders and receivers.
+=======
+>>>>>>> d5609d4b30868e7a48d548b3213b0cec9c83e59b

@@ -1,5 +1,6 @@
 This example illustrates the structure of the `Flyweight` design pattern and focuses on the following questions:
 
+
 * What classes does it consist of?
 * What roles do these classes play?
 * In what way the elements of the pattern are related?
@@ -35,3 +36,4 @@ This example illustrates the structure of the `Flyweight` design pattern and foc
 * You might be trading RAM over CPU cycles when some of the context data needs to be recalculated each time somebody calls a flyweight method.
 
 * The code becomes much more complicated. New team members will always be wondering why the state of an entity was separated in such a way.
+

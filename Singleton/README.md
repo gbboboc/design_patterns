@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This example illustrates the structure of the `Singleton` design pattern and focuses on the following questions:
 
 * What classes does it consist of?
@@ -5,26 +6,28 @@ This example illustrates the structure of the `Singleton` design pattern and foc
 * What roles do these classes play?
 
 * In what way the elements of the pattern are related?
+=======
+## What is the Singleton Pattern?
 
- ### What is the Singleton Pattern?
- 
- The Singleton pattern ensures that a class has only one instance and provides a global point of access to that instance. This pattern is used to prevent multiple instances of the same class from being created, ensuring consistency throughout the application. 
+**The Singleton Pattern makes sure that a class has only one instance and provides a way to access that instance globally. It prevents creating multiple instances of the same class, ensuring there is only one.** 
+>>>>>>> d5609d4b30868e7a48d548b3213b0cec9c83e59b
 
-* It restricts the instantiation of a class to only one object.
+* The pattern controls the creation of the class and provides a single access point to that instance. It is commonly used in cases where having multiple instances would cause issues or where shared resources need to be managed centrally.
 
-* A global access point is provided to get that instance.
+* Common uses include logging, managing configurations, handling database connections, and caching.
 
-* It is often used in other design patterns like Abstract Factory, Builder, and Prototype.
+### You should use the Singleton Pattern when:
 
-* Common use cases include logging, drivers, caching, and thread pools.
+* You need exactly one instance of a class across the entire application.
+* You want to control global access to that single instance.
+* You need centralized management for resources like database connections or configurations.
 
- #### When to use the Singleton Pattern?
+  **The example is a Counter class that has:**
 
-* When you need exactly one instance of a class and want to control its global access.
-
-* If the sole instance needs to be extensible by subclassing and clients should be able to use an extended instance without modifying the existing code.
-
-* In scenarios where resource management, such as database connections or configuration settings, needs centralized handling.
+1. a `getInstance` method that returns the value of the instance
+2. a `getCount` method that returns the current value of the `counter` variable
+3. an `increment` method that increments the value of `counter` by one
+4. a `decrement` method that decrements the value of `counter` by one
 
 #### Identification: 
 

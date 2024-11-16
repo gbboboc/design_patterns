@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This example illustrates the structure of the `Proxy` design pattern and focuses on the following questions:
 
 * What classes does it consist of?
@@ -5,20 +6,15 @@ This example illustrates the structure of the `Proxy` design pattern and focuses
 * What roles do these classes play?
 
 * In what way the elements of the pattern are related?
+=======
+## What is the Proxy Pattern?
 
-### What is the Proxy Pattern?
+**The Proxy Pattern provides an intermediary (proxy) object that controls access to another object. This allows you to add extra behavior, like validation, logging, or lazy initialization, without modifying the original object.** 
+>>>>>>> d5609d4b30868e7a48d548b3213b0cec9c83e59b
 
-The Proxy pattern provides an intermediary object that controls access to another object. This can be used to add functionality such as validation, logging, or lazy initialization, without modifying the original object. 
+* The proxy intercepts operations, like getting or setting properties, and can manage or modify how those operations are handled. In JavaScript, the `get` and `set` methods are often overridden for this purpose, and the `Reflect` object is used to delegate actions back to the original object.
 
-* The Proxy object intercepts operations on the target object, such as getting or setting properties.
-
-* The `get` and `set` methods are commonly overridden to manage property access and mutation.
-
-* `Reflect` is a built-in object often used in Proxy implementations to delegate operations back to the original target object.
-
-* Common use cases include input validation, logging, lazy loading, or access control.
-
- #### When to use the Proxy Pattern?
+### You should use the Proxy Pattern when:
 
 * When you need to control or validate access to an object’s properties.
 
@@ -26,6 +22,7 @@ The Proxy pattern provides an intermediary object that controls access to anothe
 
 * In scenarios where resource-heavy objects need to be initialized only when necessary (lazy initialization).
 
+<<<<<<< HEAD
 #### Identification: 
 
 * Proxies delegate all of the real work to some other object. Each proxy method should, in the end, refer to a service object unless the proxy is a subclass of a service.
@@ -45,3 +42,9 @@ The Proxy pattern provides an intermediary object that controls access to anothe
 * The code may become more complicated since you need to introduce a lot of new classes.
 
 * The response from the service might get delayed.
+=======
+**The example is a `User` object that:**
+
+* has a `name` and age property.
+* is accessed through a `UserProxy`, which adds validation to the `set` method (e.g., ensuring that the `age` is a valid number and name is a string).
+>>>>>>> d5609d4b30868e7a48d548b3213b0cec9c83e59b
